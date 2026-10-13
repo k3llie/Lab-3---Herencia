@@ -122,6 +122,7 @@ public class Despacho {
     }
 
     // Consulta adicional para mostrar resultados pendientes sin exponer el mapa interno.
+    public Map<Envio, ResultadoEntrega> getResultados() {
         return Collections.unmodifiableMap(new LinkedHashMap<>(resultados));
     }
 }
