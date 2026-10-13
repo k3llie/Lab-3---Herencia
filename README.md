@@ -103,3 +103,8 @@ Indica si un intento de entrega fue exitoso o fallido.
 **TipoIngreso**
 
 Distingue el cobro inicial de registro del cargo por reintento.
+
+**Validaciones**
+
+Clase extra agregada como auxiliar. Reúne las validaciones comunes del programa, comprobando que los textos ingresados al sistema no estén vacíos, que las referencias no sean nulas y que los valores numéricos se an finitos y positivos.
+No especificada en el diagrama original pero agregada para facilitar a las demás clases a usar sus métodos sin crear un objeto de validaciones.
